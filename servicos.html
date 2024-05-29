@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title> serviços | Website html css e javacript</title>
+</head>
+
+<body>
+    <!--header-->
+    <header style="background-image: url('./img/SERVIÇOS.png');">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/Logo De reparo de eletrônicos azul (1).png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a class="btn" href="index.html">home</a>
+                    <a class="btn" href="sobre.html">sobre</a>
+                    <a class="btn" href="servicos.html">servicos</a>
+                    <a class="btn" class="btn" href="contacto.html">contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu() ">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Serviços</h1>
+                </div>
+            </section>
+        </div>
+        <!-- end container-->
+    </header>
+    <!--fim header-->
+    <section class="servicos">
+        <div class="container">
+            <h3> Nossos serviços</h3>
+            <p>conheça os nossos melhores serviços que temos para si!</p>
+            <!--rows cards-->
+            <div class="rows-cards">
+
+                <!--row card item l-->
+                <div class="row-card-item">
+                    <img src="img/cloud.png" alt="">
+                    <p class="nome-servico"><strong>Serviço em nuvem</strong></p>
+                    <p class="descricao-servico">
+                        A E-Marketing Placa oferece um serviço em nuvem confiável e seguro para armazenamento de dados,
+                        garantindo que as informações dos clientes e transações sejam protegidas e acessíveis de forma
+                        conveniente.
+                    </p>
+                </div>
+                <!-- end row card item l-->
+
+                <!--row card item 2-->
+                <div class="row-card-item">
+                    <img src="img/digital-marketing.png" alt="">
+                    <p class="nome-servico"><strong>Marketing digital</strong></p>
+                    <p class="descricao-servico">
+                        Nosso serviço de marketing digital inclui estratégias abrangentes para promover produtos e
+                        marcas na plataforma, utilizando técnicas eficazes de publicidade online, redes sociais e
+                        campanhas direcionadas para alcançar o público-alvo desejado.
+                    </p>
+                </div>
+                <!-- end row card item 2-->
+                <!--row card item 3-->
+                <div class="row-card-item">
+                    <img src="img/seo.png" alt="">
+                    <p class="nome-servico"><strong>seo</strong></p>
+                    <p class="descricao-servico">
+                        Oferecemos serviços de SEO para garantir que os produtos e lojas virtuais em nossa plataforma
+                        tenham uma presença online forte, aumentando a visibilidade nos mecanismos de busca e atraindo
+                        mais tráfego qualificado.
+                    </p>
+                </div>
+                <!-- end row card item 3-->
+                <!--row card item 4-->
+                <div class="row-card-item">
+                    <img src="img/virtual_store.png" alt="">
+                    <p class="nome-servico"><strong>Criação de lojas virtuais</strong></p>
+                    <p class="descricao-servico">
+                        A E-Marketing Placa oferece suporte completo para a criação e personalização de lojas virtuais,
+                        permitindo que os vendedores tenham uma presença online profissional e eficiente para
+                        comercializar seus produtos.
+                    </p>
+                </div>
+                <!-- end row card item 4-->
+                <!--row card item 5 -->
+                <div class="row-card-item">
+                    <img src="img/layer.png" alt="">
+                    <p class="nome-servico"><strong>Identidade visual & design</strong></p>
+                    <p class="descricao-servico">
+                        Nossos serviços incluem a criação de identidade visual e design personalizado para vendedores e
+                        marcas, garantindo uma apresentação visual consistente e atraente em toda a plataforma.
+                    </p>
+                </div>
+                <!-- end row card item  5 -->
+                <!--row card item 6-->
+                <div class="row-card-item">
+                    <img src="img/manager.png" alt="">
+                    <p class="nome-servico"><strong>Criação de conteúdo</strong></p>
+                    <p class="descricao-servico">
+                        Oferecemos suporte na criação de conteúdo relevante e atrativo, incluindo descrições de
+                        produtos, artigos informativos e materiais promocionais para destacar os produtos e marcas
+                        presentes na E-Marketing Placa.
+                    </p>
+                </div>
+                <!-- end row card item 6-->
+            </div>
+            <!--end rows cards-->
+        </div>
+    </section>
+    <!--end section servicos-->
+    <section class="dados">
+        <div class="container">
+            <!--dados item-->
+            <div class="dados-item">
+                <img src="img/cloud.png" alt="">
+                <p>
+                    <strong>+360</strong> <br>
+                    projetos concluidos
+                </p>
+            </div>
+            <!-- end dados item-->
+            <!--dados item-->
+            <div class="dados-item">
+                <img src="img/manager.png" alt="">
+                <p>
+                    <strong>+890</strong> <br>
+                    Clientes satisfeitos
+                </p>
+            </div>
+            <!-- end dados item-->
+            <!--dados item-->
+            <div class="dados-item">
+                <img src="img/trophy.png" alt="">
+                <p>
+                    <strong>+4303</strong> <br>
+                    Jornada de trabalho
+                </p>
+            </div>
+            <!-- end dados item-->
+            <!--dados item-->
+            <div class="dados-item">
+                <img src="img/layer.png" alt="">
+                <p>
+                    <strong>+254</strong> <br>
+                    Publicidade paga
+                </p>
+            </div>
+            <!-- end dados item-->
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"> <i class="fa fa-facebook"></i></a>
+                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"> </i></a>
+                <a href="#"> <i class="fa fa-github"></i></a>
+                <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"> </i></a>
+            </div>
+            <p>Desenvolvido por Jonas,kelly,mikael,Kessya e Vitoria </p>
+        </div>
+    </footer>
+    <!--end footer-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+<!---->
